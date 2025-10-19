@@ -1,0 +1,15 @@
+setup.py
+Project_02.egg-info/PKG-INFO
+Project_02.egg-info/SOURCES.txt
+Project_02.egg-info/dependency_links.txt
+Project_02.egg-info/requires.txt
+Project_02.egg-info/top_level.txt
+config/__init__.py
+config/paths_config.py
+pipeline/__init__.py
+src/__init__.py
+src/custom_exception.py
+src/data_ingestion.py
+src/logger.py
+utils/__init__.py
+utils/common_functions.py

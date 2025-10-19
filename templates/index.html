@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime Recommender</title>
+</head>
+<body>
+    <h1>Anime Recommendation System</h1>
+    <form method="POST">
+        <label for="userID">Enter User ID:</label>
+        <input type="number" name="userID" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+
+    {% if message %}
+        <p><strong>{{ message }}</strong></p>
+    {% endif %}
+
+    {% if recommendations %}
+        <h2>Top Recommendations:</h2>
+        <ul>
+            {% for anime in recommendations %}
+                <li>{{ anime }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

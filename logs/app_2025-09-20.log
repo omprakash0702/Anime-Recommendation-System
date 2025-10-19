@@ -1,0 +1,22 @@
+2025-09-20 19:16:30,859 - INFO - YAML file config/config.yaml read successfully.
+2025-09-20 19:16:30,860 - INFO - DataIngestion initialized with bucket:  anime_project02 and files: ['anime.csv', 'anime_with_synopsis.csv', 'animelist.csv']
+2025-09-20 19:16:30,860 - INFO - Data ingestion process started
+2025-09-20 19:16:30,901 - ERROR - Error occurred while downloading files from GCP
+2025-09-20 19:16:30,901 - ERROR - Error in data ingestion process
+2025-09-20 19:16:30,901 - INFO - Exiting DataIngestion.run method
+2025-09-20 19:16:30,901 - ERROR - Error in main execution
+2025-09-20 19:18:00,422 - INFO - YAML file config/config.yaml read successfully.
+2025-09-20 19:18:00,423 - INFO - DataIngestion initialized with bucket:  anime_project02 and files: ['anime.csv', 'anime_with_synopsis.csv', 'animelist.csv']
+2025-09-20 19:18:00,423 - INFO - Data ingestion process started
+2025-09-20 19:18:00,440 - ERROR - Error occurred while downloading files from GCP
+2025-09-20 19:18:00,441 - ERROR - Error in data ingestion process
+2025-09-20 19:18:00,441 - INFO - Exiting DataIngestion.run method
+2025-09-20 19:18:00,441 - ERROR - Error in main execution
+2025-09-20 19:19:26,154 - INFO - YAML file config/config.yaml read successfully.
+2025-09-20 19:19:26,155 - INFO - DataIngestion initialized with bucket: anime_project02 and files: ['anime.csv', 'anime_with_synopsis.csv', 'animelist.csv']
+2025-09-20 19:19:26,155 - INFO - Data ingestion process started
+2025-09-20 19:19:30,789 - INFO - Downloaded anime.csv from GCP bucket anime_project02 to artifacts/raw\anime.csv
+2025-09-20 19:19:35,123 - INFO - Downloaded anime_with_synopsis.csv from GCP bucket anime_project02 to artifacts/raw\anime_with_synopsis.csv
+2025-09-20 19:35:29,958 - INFO - Downloaded and truncated animelist.csv to 500,000 rows
+2025-09-20 19:35:29,959 - INFO - Data ingestion process completed
+2025-09-20 19:35:29,960 - INFO - Exiting DataIngestion.run method
